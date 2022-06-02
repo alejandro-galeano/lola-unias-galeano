@@ -1,0 +1,23 @@
+body {
+    background-color: #f7ebdb;
+}
+
+
+#menu a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.carousel-inner {
+    max-height: 30rem;
+}
+
+#tarjetas {
+    row-gap: 30px;
+}
+
+.card {
+    margin: 20px;
+}
