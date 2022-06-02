@@ -42,10 +42,8 @@ header {
 }
 /*fin de las cards */
 /*fin de servicios */
-.ubicacion {
-    display: ;
-}
 
+/*inicio de ubicacion*/
 .ubicacion h2 {
     font-size: 3rem;
     font-style: italic;
@@ -53,7 +51,9 @@ header {
     color: #f1c384;
     text-align: center;
 }
+/*fin de ubicacion*/
 
+/*inicio del footer*/
 footer {
     display: flex;
     align-items: center;
@@ -71,3 +71,4 @@ footer p {
     margin: 0;
     padding: 2rem;
 }
+/*fin del footer*/
