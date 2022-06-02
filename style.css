@@ -2,22 +2,64 @@ body {
     background-color: #f7ebdb;
 }
 
+/*header */
+
+header {
+    position: fixed;
+    z-index: 2 ;
+}
 
 #menu a {
     font-size: 20px;
     font-weight: bold;
 }
 
-
+/* inicio carousel */
+.container-carousel {
+    padding-top: 4rem;
+}
 
 .carousel-inner {
     max-height: 30rem;
 }
+/* fin carousel */
+/* servicios */
+.servicios {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #f1c384;
+}
 
+
+/* cards */
 #tarjetas {
     row-gap: 30px;
 }
 
 .card {
     margin: 20px;
+}
+/*fin de las cards */
+/*fin de servicios */
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid black;
+}
+footer p {
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 2rem;
 }
