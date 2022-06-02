@@ -42,9 +42,17 @@ header {
 }
 /*fin de las cards */
 /*fin de servicios */
+.ubicacion {
+    display: ;
+}
 
-
-
+.ubicacion h2 {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    color: #f1c384;
+    text-align: center;
+}
 
 footer {
     display: flex;
